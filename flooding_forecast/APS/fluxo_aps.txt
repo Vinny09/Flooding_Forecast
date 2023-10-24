@@ -1,0 +1,9 @@
+# criar o front do aplicativo de mapeamento de alagamentos.
+
+# pegar template para criação do front
+
+# criar o back-end, utilizando API do Google Maps para geolocalização, onde consiste em 1 - se o usuario estiver em uma area de alagamento ou se criando um alagamento ele ira informar utilizando o aplicativo atraves da geolocalização, desta forma fazendo o mapeamento. 
+2 - Se o usuario optar por consultar as areas que estão alagadas, ele ira consultar o mapa do aplicativo e vera os pontos alagados registrado por outros usuarios. 
+3 - Após 24hrs limpar o registro no mapa de area alagada.
+
+# fazer um processo de "Deploy" (mudança) para converter o programa para Android e Ios 
