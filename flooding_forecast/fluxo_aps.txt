@@ -6,4 +6,21 @@
 2 - Se o usuario optar por consultar as areas que estão alagadas, ele ira consultar o mapa do aplicativo e vera os pontos alagados registrado por outros usuarios. 
 3 - Após 24hrs limpar o registro no mapa de area alagada.
 
-# fazer um processo de "Deploy" (mudança) para converter o programa para Android e Ios 
+# fazer um processo de "Deploy" (mudança) para converter o programa para Android
+
+# 1 - Na tela Inicial o usuario terá 2 opções, primeiro para consultar locais de alagamentos e
+segundo para adicionar o local atual aonde se encontra alagado ou com risco de alagar.
+2 - Ao clicar no botão de consultar alagamentos o usuario irá se deparar com a tela do maps
+e figuras com pontos de alagamentos nos endereços, ao clicar neles também vai ter a opção de
+remoção do ponto de alagamento, e um botão para voltar ao menu.
+3 - Ao clicar no botão adicionar área de alagamento o usuario será redirecionado para outra
+tela também, aonde poderá adicionar sua aréa de alagamento atual ou proxima, até mesmo locais
+que estão com risco de alagamentos e um botão para voltar ao menu principal. Tudo isso vai aparecer
+em um mapa utilizando a API do Google Maps.
+
+# Figuras de indicação:
+Icone de alagamento:
+Icone de área com perigo de alagamento:
+
+
+

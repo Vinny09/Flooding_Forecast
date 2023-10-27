@@ -1,0 +1,54 @@
+<screens>:
+    Tela1:
+        name: 'menu'
+    Tela2:
+        name: 'tela2'
+
+<Tela1>:
+    BoxLayout:
+        orientation: 'vertical'
+        Image:
+            source: './img/Wallpaper_chuva.jpg'  # Substitua pelo nome do seu arquivo de imagem
+            allow_stretch: True
+            keep_ratio: False
+
+            BoxLayout:
+                orientation: 'vertical'
+                size_hint_y: None
+                height: self.minimum_height  # Definir a altura igual à altura mínima necessária
+                pos: '325dp', '120dp'
+                spacing: 50
+
+                Label:
+                    text: '[b]Seja bem-vindo![/b]'
+                    markup: True 
+
+                Button:
+                    text: "Consulta de alagamentos"
+                    size_hint: None, None
+                    size: self.texture_size
+                    pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                    background_color: 169/255, 169/255, 169/255, 1
+                    color: 1, 0, 0, 1
+                    on_press:
+                        app.root.transition.direction = 'right'
+                        app.root.current = 'tela2'
+
+                Button:
+                    text: "Adicionar área de alagamento/Voltar"
+                    size_hint: None, None
+                    size: self.texture_size
+                    pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+                    background_color: 169/255, 169/255, 169/255, 1
+                    color: 1, 0, 0, 1
+           
+<tela2>:
+    BoxLayout:
+        orientation: "vertical"
+        Button:
+            text: 'Minhas Configurações'
+        Button:
+            text: 'Voltar para o Menu'
+            on_press:
+                app.root.transition.direction = 'left'
+                app.root.current = 'menu'
